@@ -1,0 +1,160 @@
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(26, 27, 37);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+    background: rgb(2, 0, 36);
+    white-space: nowrap;
+    background: rgb(22, 22, 29);
+    border-bottom-style: solid;
+    border-color: rgb(30, 32, 45);
+    border-width: 4px;
+    border-radius: 0 0 3px 3px;
+}
+
+header {
+	height: 10vh;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+}
+.right{
+    margin-right: 20px;
+}
+
+.left {
+	font-size: 1.75rem;
+	margin-left: 5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    text-align: left;
+}
+.left img {
+	height: 5vh;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: left;
+	width: fit-content;
+}
+nav ul li {
+	list-style: none;
+	margin: 0 15px;
+	font-size: 1rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: rgb(198, 198, 252);
+}
+
+main {
+    height: 100vh;
+    margin-top:10vh;
+}
+main section {
+    height: fit-content;
+    justify-content: center;
+    align-items:start;
+    display: flex;
+}
+
+#iik {
+    width: 100px;
+    padding: 0vw 2vw;
+}
+
+#top {
+    padding: 0 10vw;
+    color: beige;
+    display: inline-flex;
+    padding: 5vw;
+}
+#about {
+    padding: 2vw 10vw;
+}
+#divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60vw;
+}
+#s1 {
+    font-style: italic;
+}
+#s-about {
+    color: rgb(185, 130, 58);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#s-achive {
+    color: rgb(185, 130, 58);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#s-events {
+    color: rgb(185, 130, 58);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#s-team {
+    color: rgb(185, 130, 58);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+img.cir-img {
+    width: 150px;
+    padding: 10px 40px;
+    border-radius: 50%;
+}
+h1.core {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 2px;
+}
+figcaption.caption {
+    text-align: center;
+    color: antiquewhite;
+}
+#s3 {
+    padding: 10px 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+img.link-img {
+    width: 50px;
+    padding: 10px 40px;
+    border-radius: 30%;
+}
+
